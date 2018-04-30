@@ -192,7 +192,7 @@ def redtest2(request):
 ```python
 from django.shortcuts import render
 def index(request):
-    return render(request, 'booktest/index.html', {'h1': 'hello'})
+    return render(request, index1.html, {'h1': 'hello'})
 ```
 
 ### 状态保持
